@@ -1,0 +1,260 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Professional portfolio of Vijayalakshmi G — PGDM Finance.">
+  <title>Vijayalakshmi G | Professional Portfolio</title>
+  <style>
+    :root {
+      --navy: #17324d;
+      --blue: #315f7d;
+      --accent: #5d8aa6;
+      --ink: #263746;
+      --muted: #657583;
+      --pale: #edf3f7;
+      --line: #d9e2e9;
+      --white: #ffffff;
+    }
+    * { box-sizing: border-box; }
+    html { scroll-behavior: smooth; }
+    body {
+      margin: 0;
+      background: #f3f6f8;
+      color: var(--ink);
+      font-family: "Segoe UI", Arial, Helvetica, sans-serif;
+      font-size: 15px;
+      line-height: 1.65;
+    }
+    a { color: var(--blue); text-decoration: none; }
+    a:hover { text-decoration: underline; }
+    .page { max-width: 1000px; margin: 36px auto; padding: 0 22px; }
+    .hero {
+      background: var(--navy);
+      color: var(--white);
+      padding: 42px 48px 36px;
+      border-radius: 12px 12px 0 0;
+      text-align: center;
+    }
+    .hero h1 {
+      margin: 0 0 5px;
+      font-size: clamp(30px, 5vw, 42px);
+      line-height: 1.2;
+      letter-spacing: 1.2px;
+      font-weight: 700;
+    }
+    .hero .role { margin: 0 0 18px; color: #d6e3ec; font-size: 17px; }
+    .contact {
+      display: flex; flex-wrap: wrap; justify-content: center;
+      gap: 8px 20px; color: #f0f5f8; font-size: 13px;
+    }
+    .contact a { color: #f0f5f8; }
+    nav {
+      display: flex; flex-wrap: wrap; justify-content: center; gap: 8px 22px;
+      background: #244760; padding: 12px 18px;
+    }
+    nav a { color: white; font-size: 13px; font-weight: 600; }
+    main {
+      background: white; padding: 28px 48px 42px;
+      border-radius: 0 0 12px 12px; box-shadow: 0 12px 35px rgba(23,50,77,.08);
+    }
+    section { padding: 10px 0 14px; }
+    h2 {
+      color: var(--navy); font-size: 17px; letter-spacing: .8px;
+      text-transform: uppercase; margin: 12px 0 14px;
+      padding-bottom: 7px; border-bottom: 2px solid var(--accent);
+    }
+    p { margin: 0 0 8px; }
+    .competencies {
+      display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 12px;
+    }
+    .competency {
+      background: var(--pale); border-left: 3px solid var(--accent);
+      padding: 13px 16px; border-radius: 5px;
+    }
+    .competency h3 { margin: 0 0 5px; color: var(--navy); font-size: 14px; }
+    .competency p { margin: 0; font-size: 13px; }
+    .job { margin: 0 0 18px; }
+    .job-heading {
+      display: flex; flex-wrap: wrap; align-items: baseline;
+      justify-content: space-between; gap: 4px 14px; margin-bottom: 5px;
+    }
+    .job h3 { margin: 0; color: var(--navy); font-size: 15px; }
+    .company { color: var(--muted); font-size: 13px; }
+    .date { color: var(--muted); font-size: 12px; white-space: nowrap; }
+    ul { margin: 5px 0 0; padding-left: 20px; }
+    li { margin: 3px 0; }
+    .education {
+      width: 100%; border-collapse: collapse; font-size: 13px;
+    }
+    .education th {
+      background: var(--navy); color: white; text-align: left;
+      padding: 10px 11px; font-weight: 600;
+    }
+    .education td { padding: 9px 11px; border: 1px solid var(--line); }
+    .education tr:nth-child(even) td { background: #f6f8fa; }
+    .cert-list {
+      display: grid; grid-template-columns: repeat(2, minmax(0, 1fr));
+      gap: 8px 22px; margin: 0; padding-left: 20px;
+    }
+    footer { text-align: center; color: var(--muted); font-size: 12px; padding: 20px; }
+    .print-note { text-align: center; color: var(--muted); font-size: 12px; margin: 12px 0; }
+    @media (max-width: 650px) {
+      .page { margin: 0 auto; padding: 0; }
+      .hero { border-radius: 0; padding: 32px 20px; }
+      main { padding: 22px 20px 32px; border-radius: 0; }
+      .competencies, .cert-list { grid-template-columns: 1fr; }
+      .education { font-size: 11px; }
+      .education th, .education td { padding: 7px 6px; }
+    }
+    @media print {
+      body { background: white; font-size: 11px; }
+      .page { max-width: none; margin: 0; padding: 0; }
+      .hero { border-radius: 0; padding: 22px; }
+      nav, .print-note { display: none; }
+      main { padding: 16px 24px; box-shadow: none; }
+      section { break-inside: avoid; }
+      a { color: inherit; }
+      footer { padding: 8px; }
+    }
+  </style>
+</head>
+<body>
+  <div class="page">
+    <header class="hero" id="top">
+      <h1>VIJAYALAKSHMI G</h1>
+      <p class="role">PGDM – Finance | Finance &amp; Wealth Management</p>
+      <div class="contact">
+        <span>☎ 9025900731</span>
+        <a href="mailto:vijayalakshmi.gpgdm@gmail.com">✉ vijayalakshmi.gpgdm@gmail.com</a>
+        <a href="https://www.linkedin.com/in/vijayalakshmipgdm" target="_blank" rel="noopener noreferrer">LinkedIn Profile</a>
+        <span>Coimbatore, Tamil Nadu</span>
+      </div>
+    </header>
+
+    <nav aria-label="Portfolio navigation">
+      <a href="#profile">Profile</a>
+      <a href="#competencies">Competencies</a>
+      <a href="#experience">Experience</a>
+      <a href="#education">Education</a>
+      <a href="#certifications">Certifications</a>
+    </nav>
+
+    <main>
+      <section id="profile">
+        <h2>Professional Profile</h2>
+        <p>
+          BBA graduate currently pursuing a PGDM in Finance, with foundational knowledge of accounting,
+          taxation and financial reporting. Brings practical exposure through internships in wealth management,
+          finance, textile operations and steel retail operations. Demonstrates professionalism, attention to detail
+          and a strong willingness to learn and contribute in a finance-driven organization.
+        </p>
+      </section>
+
+      <section id="competencies">
+        <h2>Core Competencies</h2>
+        <div class="competencies">
+          <article class="competency">
+            <h3>Finance &amp; Accounting</h3>
+            <p>Tally ERP / TallyPrime; voucher creation; journal entries; ledger posting; invoice verification.</p>
+          </article>
+          <article class="competency">
+            <h3>Investment &amp; Research Support</h3>
+            <p>Mutual fund categorization; daily NFO data analysis; fund tracking; investment research support.</p>
+          </article>
+          <article class="competency">
+            <h3>Business Operations</h3>
+            <p>Customer onboarding support; document maintenance; data collection; basic report preparation; E-invoices and E-Way bills.</p>
+          </article>
+          <article class="competency">
+            <h3>Professional Skills</h3>
+            <p>Teamwork; leadership; adaptability; time management; attention to detail.</p>
+          </article>
+        </div>
+      </section>
+
+      <section id="experience">
+        <h2>Professional Experience</h2>
+        <article class="job">
+          <div class="job-heading">
+            <div><h3>Wealth Management Intern</h3><span class="company">Midfin Wealth Pvt Ltd</span></div>
+            <span class="date">December 2025 – March 2026</span>
+          </div>
+          <ul>
+            <li>Verified and categorized 600+ mutual funds in collaboration with AMCs, supporting accurate mapping across categories and sub-categories.</li>
+            <li>Analyzed daily NFO data to support market insights, fund tracking and investment research activities.</li>
+            <li>Assisted with customer onboarding on the investment platform and guided customers on investment options aligned with their financial objectives.</li>
+          </ul>
+        </article>
+
+        <article class="job">
+          <div class="job-heading">
+            <div><h3>Finance Intern</h3><span class="company">Vedanayagam Hospital Pvt Ltd</span></div>
+            <span class="date">September 2025 – December 2025</span>
+          </div>
+          <ul>
+            <li>Performed Tally entries, including voucher creation, journal entries and ledger posting.</li>
+            <li>Supported document maintenance and organized record-keeping.</li>
+          </ul>
+        </article>
+
+        <article class="job">
+          <div class="job-heading">
+            <div><h3>Project Intern</h3><span class="company">KKP Spinning Mills Pvt Ltd</span></div>
+            <span class="date">December 2024</span>
+          </div>
+          <ul>
+            <li>Learned about textile production processes and operations.</li>
+            <li>Assisted in data collection and basic report preparation.</li>
+          </ul>
+        </article>
+
+        <article class="job">
+          <div class="job-heading">
+            <div><h3>Inplant Trainee</h3><span class="company">Sri Amman Steels</span></div>
+            <span class="date">February 2024</span>
+          </div>
+          <ul>
+            <li>Learned basic retail operations and customer handling.</li>
+            <li>Prepared E-Invoices and E-Way bills.</li>
+          </ul>
+        </article>
+      </section>
+
+      <section id="education">
+        <h2>Education</h2>
+        <table class="education">
+          <thead>
+            <tr><th>Qualification</th><th>Institution</th><th>Duration</th><th>Result</th></tr>
+          </thead>
+          <tbody>
+            <tr><td>PGDM – Finance</td><td>Firebird Institute of Research in Management</td><td>Aug 2025 – May 2027</td><td>CGPA: 8.8</td></tr>
+            <tr><td>BBA</td><td>Vivekanandha College of Arts &amp; Science for Women</td><td>Aug 2022 – May 2025</td><td>CGPA: 8.0</td></tr>
+            <tr><td>HSC</td><td>Trinity Academy Matric Hr Sec School</td><td>Aug 2020 – May 2022</td><td>95%</td></tr>
+            <tr><td>SSLC</td><td>Surabi Matric Hr Sec School</td><td>Jun 2019 – Jun 2020</td><td>88.2%</td></tr>
+          </tbody>
+        </table>
+      </section>
+
+      <section id="certifications">
+        <h2>Certifications &amp; Development</h2>
+        <ul class="cert-list">
+          <li>Tally ERP9 with GST</li>
+          <li>SEBI Investor Certification</li>
+          <li>Bajaj Finserv – CPBFI</li>
+          <li>Two NPTEL Courses</li>
+          <li>Entrepreneurial Management</li>
+          <li>Product Development</li>
+          <li>Outbound Training</li>
+          <li>Research Methodology Workshop</li>
+          <li>National and International Conference</li>
+          <li>Student Coordinator – Inter- and Intra-College Events</li>
+        </ul>
+      </section>
+    </main>
+
+    <p class="print-note">Tip: Use your browser’s Print option and select “Save as PDF” to create a PDF copy.</p>
+    <footer>Professional Portfolio · Vijayalakshmi G</footer>
+  </div>
+</body>
+</html>
